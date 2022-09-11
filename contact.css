@@ -1,0 +1,38 @@
+.container {
+   width: 80%;
+   margin: 0 auto;
+   /* padding:1%; */
+}
+
+.contact ul {
+   list-style-type: none;
+}
+
+.contact ul li {
+   display: inline;
+   padding: 1%;
+}
+
+.contact {
+   background: #2d3436;
+   width: 100%;
+}
+
+.text-center {
+   text-align: center;
+   color: white;
+}
+
+.text-white a {
+   color: white;
+}
+
+.button-primary {
+   cursor: pointer;
+   background-color: #e74c3c;
+   color: white;
+}
+
+text-area {
+   background: white;
+}

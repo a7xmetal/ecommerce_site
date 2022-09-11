@@ -1,0 +1,46 @@
+.rating .b {
+   font-size: 2.5em;
+}
+.px {
+   position: relative;
+   direction: ltr;
+}
+.rating .star-wrapper {
+   position: relative;
+   direction: rtl;
+}
+.rating .star-wrapper a {
+   font-size: 1.5em;
+   color: rgb(219, 196, 154);
+   text-decoration: none;
+   transition: all 0.5s;
+   margin: 2px;
+}
+.rating .star-wrapper a:hover {
+   color: red;
+   transform: scale(1.3);
+}
+.rating .s1:hover ~ a {
+   color: red;
+   transform: scale(1.3);
+}
+.rating .s2:hover ~ a {
+   color: red;
+   transform: scale(1.3);
+}
+.rating .s3:hover ~ a {
+   color: red;
+   transform: scale(1.3);
+}
+.rating .s4:hover ~ a {
+   color: red;
+   transform: scale(1.3);
+}
+.rating .s5:hover ~ a {
+   color: red;
+}
+.rating .wraper {
+   position: absolute;
+   bottom: 30px;
+   right: 50px;
+}
